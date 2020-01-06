@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:900|Raleway&display=swap" rel="stylesheet">
+    <title>Table</title>
+  </head>
+  <body>
+    <h1>CSS Cheat Sheet</h1>
+    <table>
+      <tr>
+        <th>CSS Layout/Example</th>
+        <th>Definition</th>
+      </tr>
+      <tr>
+        <td>margin: auto</td>
+        <td>centers element horizontally in container</td>
+      </tr>
+      <tr>
+        <td>display: flex</td>
+        <td>sets flexible length on flexible items</td>
+      </tr>
+      <tr>
+        <td>flex-direction: row, row-reverse, column, column-reverse</td>
+        <td>sets the orientation of flex items</td>
+      </tr>
+      <tr>
+        <td>justify-content: flex-start, flex-end, center, space-between, space-around, space-evenly</td>
+        <td>aligns the flexible container's items when the items do not use all available space on the main-axis (horizontally)</td>
+      </tr>
+      <tr>
+        <td>align-items: flex-start, center, flex-end, baseline, stretch</td>
+        <td>specifies the default alignment for items inside the flexible container on cross-axis (vertically)</td>
+      </tr>
+      <tr>
+        <td>align-content: flex-start, center, flex-end, stretch, space-between, space-around, initial, inherit</td>
+        <td>modifies the behavior of the flex-wrap property – aligns flex lines</td>
+      </tr>
+      <tr>
+        <td>align-self: flex-start, center, flex-end, stretch, auto, baseline </td>
+        <td>sets alignment for individual item, used to override align-items </td>
+      </tr>
+      <tr>
+        <td>flex-grow: 1, 2, etc., initial, inherit</td>
+        <td>specifies how much the item will grow relative to the rest of the flexible items inside the same container</td>
+      </tr>
+      <tr>
+        <td>flex-shrink: 1, 2, etc., initial, inherit</td>
+        <td>specifies how the item will shrink relative to the rest of the flexible items inside the same container</td>
+      </tr>
+      <tr>
+        <td>flex-basis: 0, 10px, 20px, etc., auto, initial, inherit</td>
+        <td>specifies the initial length of a flexible item</td>
+      </tr>
+      <tr>
+        <td>order: 1, 2, etc., initial, inherit</td>
+        <td>specifies the order of a flexible item relative to the rest of the flexible items inside the same container</td>
+      </tr>
+      <tr>
+        <td>margin: length in px, pt, cm, etc., %, auto, initial, inherit</td>
+        <td>sets the extra space around an element</td>
+      </tr>
+      <tr>
+        <td>padding: length in px, pt, cm, etc., %, auto, initial, inherit</td>
+        <td>sets the space in between its content and its border</td>
+      </tr>
+      <tr>
+        <td>border: border-width, border-style, border-color</td>
+        <td>shorthand CSS for setting a border between padding and margin of an element</td>
+      </tr>
+      <tr>
+        <td>box-sizing: content-box, border-box, initial, inherit</td>
+        <td>defines how the width and height of an element are calculated – if they added to the total width set or the content will only reach the total width and height given</td>
+      </tr>
+      <tr>
+        <td>width: length in px, pt, cm, etc., %, auto, initial, inherit</td>
+        <td>sets the width of an element</td>
+      </tr>
+      <tr>
+        <td>min-width: length in px, pt, cm, etc., %, initial, inherit</td>
+        <td>defines the minimum width of an element</td>
+      </tr>
+      <tr>
+        <td>max-width: none, length in px, pt, cm, etc., %, initial, inherit</td>
+        <td>defines the maximum width of an element – if content is larger than the maximum width, will automatically change the height of the element</td>
+      </tr>
+      <tr>
+        <td>height: length in px, pt, cm, etc., %, auto, initial, inherit</td>
+        <td>sets the height of an element – does not include padding, borders, or margins</td>
+      </tr>
+      <tr>
+        <td>min-height: length in px, pt, cm, etc., %, initial, inherit</td>
+        <td>defines the minimum height of an element</td>
+      </tr>
+      <tr>
+        <td>max-height: none, length in px, pt, cm, etc., %, initial, inherit</td>
+        <td>defines the maximum height of an element – if content is larger than the maximum height will overflow – how container will handle the overflowing content is defined by the overflow property</td>
+      </tr>
+      <tr>
+        <td>absolute units: cm, mm, in, px, pt, pc </td>
+        <td>units are fixed and a length expressed in any of these will appear as exactly that size – not recommended for screens</td>
+      </tr>
+      <tr>
+        <td>relative units: em, ex, ch, rem, vw, vh, vmin, vmax, %</td>
+        <td>specify a length relative to another length property – recommended for screens</td>
+      </tr>
+    </table>
+  </body>
+</html>
